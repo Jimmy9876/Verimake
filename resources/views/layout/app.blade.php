@@ -31,21 +31,24 @@
         background-color: #CDCDCD;
         border-radius: 50px;
     }
+    .blog-info .blog-info__title{
+        font-size: 28px;
+    }
     </style>
 </head>
 <body class="top-fixed">
  <header class="ae-container-fluid ae-container-fluid--full rk-header ">
     <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
       <label for="mobile-menu">
-        <svg>
+         <svg>
             <use xlink:href="/assets/img/symbols.svg#bar"></use>
         </svg>
         <svg>
             <use xlink:href="/assets/img/symbols.svg#bar"></use>
         </svg>
-        <svg>
+         <svg>
             <use xlink:href="/assets/img/symbols.svg#bar"></use>
-        </svg>
+        </svg>  
     </label>  
     <div class="ae-container-fluid rk-topbar">
          <h1 class="rk-logo"><a href="index">@yield('title', config('verimake.name'))<sup>©</sup></a></h1> 
@@ -71,7 +74,7 @@
             </svg>
         </label>
     </div>
-     <div class="rk-layout-ctrl-mobile">
+      <div class="rk-layout-ctrl-mobile">
         <svg viewBox="0 0 9 9" class="layout-mob-1">
             <rect width="100%" height="100%" fill="currentColor"></rect>
         </svg>
@@ -83,7 +86,7 @@
         </svg>
         <svg viewBox="0 0 9 9" class="layout-mob-4">
             <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
+        </svg> 
     </div>  
 
 @yield('content')
