@@ -75,6 +75,7 @@ class PostController extends Controller
 
             $grid->column('id','文章ID')->sortable();
             $grid->column('title','文章标题');
+            $grid->column('author','作者');
             $grid->column('created_at','创建于');
             $grid->column('updated_at','更新于');
         });
@@ -91,7 +92,10 @@ class PostController extends Controller
 
             $form->display('id', '文章ID');
             $form->text('title', '文章标题');
-            $form->wangeditor('content','文章内容')->attribute(['rows' => '20']);
+            $form->text('author', '作者');
+            $form->textarea('description', '文章描述');
+            // $form->wangeditor('content','文章内容')->attribute(['rows' => '20']);
+            $form->markdowneditor('content','文章内容');
             // $form->editor('content');
             // $form->textarea('content', '文章内容');
             $form->display('created_at', '创建于');

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/assets/css/aurora-pack.min.css">
     <link rel="stylesheet" href="/assets/css/aurora-theme-base.min.css">
     <link rel="stylesheet" href="/assets/css/urku.css">
+    <link rel="stylesheet" href="/highlight/styles/default.css">
     {{--  <link rel="stylesheet" href="/css/bootstrap.min.css">  --}}
     {{--  自定分页样式  --}}
     <style>
@@ -92,6 +93,8 @@
 @include('layout.footer')
 
 {{--  <script src="/js/bootstrap.min.js"></script>  --}}
+<script src="/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script src="/assets/js/svg4everybody.min.js"></script>
 <script>svg4everybody();</script>
 </body>

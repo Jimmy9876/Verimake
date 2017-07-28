@@ -19,7 +19,9 @@
  */
  //富文本编辑器
 use App\Admin\Extensions\WangEditor;
+use App\Admin\Extensions\MarkdownEditor;
 use Encore\Admin\Form;
 
 Form::extend('wangeditor', WangEditor::class);
+Form::extend('markdowneditor', MarkdownEditor::class);
 Encore\Admin\Form::forget(['map', 'editor']);

@@ -6,7 +6,7 @@
       {{--  <header class="rk-portfolio-cover  post-inside-1">  --}}
         <div class="item-inside__meta">
           <h1 class="ae-u-bolder rk-portfolio-title ">{{ $blog->title }}</h1>
-          <p class="ae-theta rk-portfolio-category ">by <span class="ae-u-bolder">Pixeden</span></p>
+          <p class="ae-theta rk-portfolio-category ">by <span class="ae-u-bolder">{{ $blog->author }}</span></p>
           <p class="ae-kappa ae-u-bold rk-portfolio-inner-date ">{{ $blog->created_at->toFormattedDateString() }}</p>
         </div>
       {{--  </header>  --}}
@@ -67,7 +67,8 @@
           <div class="ae-grid__item item-lg-8 item-lg--offset-2">
             {{--  <h4 class="ae-u-bolder">Full Wide Text</h4>  --}}
             {{--  <p class="ae-eta">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>  --}}
-             {!! $blog->content !!}
+              {{--  {!! $blog->content !!}   --}}
+              {!! json_decode($converte) !!} 
           </div>
         </div>
         {{--  <div class="ae-grid ae-grid--collapse inner-box-3">

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use League\CommonMark\CommonMarkConverter;
 use Illuminate\Http\Request;
 use \App\Blog;
 
@@ -11,13 +12,15 @@ class BlogController extends Controller
     public function index()
     {
         $posts = Blog::orderBy('created_at', 'desc')->paginate(6);
-
+    
         return view('blog.index',compact('posts'));
     }
     //blog detail page
     public function show(Blog $blog)
     {
-        return view('blog.show',compact('blog'));
+        $converter = new CommonMarkConverter();
+        $converte = json_encode($converter->convertToHtml($blog->content));
+        return view('blog.show',compact('blog'))->with('converte',$converte);
     }
      //create the article
     public function create()
