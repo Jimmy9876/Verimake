@@ -4,9 +4,9 @@
 
 <div class="ae-container-fluid ae-container-fluid--inner rk-main">
       <div class="ae-grid au-xs-ta-center au-mb-4">
-        <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/team-1.jpg" alt="" class="au-mb-3">
-          <h5 class="ae-u-bolder au-mt-2">Robert T. Williams</h5>
-          <p class="ae-u-bolder au-mb-3">Graphic Designer</p>
+        <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fhyna44eudj30ak0akt8w.jpg" alt="" class="au-mb-3">
+          <h5 class="ae-u-bolder au-mt-2">Jimmy Eric</h5>
+          <p class="ae-u-bolder au-mb-3">The engineer and the designer</p>
           <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p><a href="#0" class="ae-u-bolder au-underline">@robertwilliams</a>
         </div>
         <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="assets/img/team-2.jpg" alt="" class="au-mb-3">
@@ -41,10 +41,10 @@
           <p class="au-lh-3">Nemo enim ipsam voluptatem quia voluptas</p>
         </div>
       </div>
-      <p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
+      {{--  <p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
             <svg>
               <use xlink:href="assets/img/symbols.svg#arrow"></use>
-            </svg></span></a></p>
+            </svg></span></a></p>  --}}
     </div>
 
 @endsection

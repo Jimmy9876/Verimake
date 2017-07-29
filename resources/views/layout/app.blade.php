@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/assets/css/urku.css">
     <link rel="stylesheet" href="/highlight/styles/default.css">
     {{--  <link rel="stylesheet" href="/css/bootstrap.min.css">  --}}
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
     {{--  自定分页样式  --}}
     <style>
     .pagination ul li{
@@ -32,7 +33,56 @@
         border-radius: 50px;
     }
     .blog-info .blog-info__title{
-        font-size: 28px;
+        font-size: 25px;
+    }
+    .blog-info__author{
+        font-size: 18px;
+    }
+    .rk-portfolio-title{
+        font-size: 25px;
+    }
+    .rk-portfolio-category{
+        font-size: 18px;
+    }
+    .ae-grid__item p{
+        font-size: 16px;
+    }
+     .ae-grid__item blockquote {
+	    border-left: 5px solid #EEEEEE; 
+        margin-left: 5px;
+        margin-right: 5px;
+        font-style: italic;
+        padding-left: 15px;
+    }
+    .ae-grid__item blockquote p:before {
+	    content: '"'; 
+    }
+    .ae-grid__item blockquote p:after {
+	    content: '"'; 
+    } 
+    a.weixin {
+        position: relative;
+    } 
+    .weixin img {
+        position: absolute;
+        z-index: 99;
+        top: -135px;
+        right: -50px;
+        width: 7.5rem;
+        max-width: none;
+        height: 7.5rem;
+        transform: scale(0);
+        transform-origin: bottom;
+        opacity: 0;
+        border: .3125rem solid #A9B9B8; 
+        border-radius: .25rem;
+        -webkit-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    .weixin:hover img {
+        transform: scale(1);
+        opacity: 1;
     }
     </style>
 </head>
