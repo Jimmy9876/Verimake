@@ -94,6 +94,7 @@ class PostController extends Controller
             $form->text('title', '文章标题');
             $form->text('author', '作者');
             $form->textarea('description', '文章描述');
+            $form->image('image_url', '文章配图');
             // $form->wangeditor('content','文章内容')->attribute(['rows' => '20']);
             $form->markdowneditor('content','文章内容');
             // $form->editor('content');

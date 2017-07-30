@@ -19,6 +19,7 @@ class CreateBlogTable extends Migration
             $table->string('title',100)->default("");
             $table->text('content');
             $table->text('description');
+            $table->string('image_url',300)->default("");
             $table->integer('user_id')->default(0);
             $table->timestamps();
         });

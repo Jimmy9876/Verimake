@@ -36,7 +36,7 @@
         font-size: 25px;
     }
     .blog-info__author{
-        font-size: 18px;
+        font-size: 16px;
     }
     .rk-portfolio-title{
         font-size: 25px;
@@ -95,10 +95,8 @@
     }
     body
     {
-        font-family: Georgia, "Times New Roman", 
-             "Microsoft YaHei", "微软雅黑", 
-             STXihei, "华文细黑", 
-             serif;
+        font-family:
+             "Microsoft YaHei", "微软雅黑";
     }
     @media screen and (max-width: 500px) {
         html {font-size: 17px;}
@@ -120,7 +118,20 @@
         .ae-grid__item p{
             font-size: 10px;
         }
+        .blog-meta__read-more{
+            font-size: 10px;
+        } 
+        .blog-info__author{
+            font-size: 15px;
+        }
     }   
+    .blog-meta__read-more{
+        font-size: 13px;
+    } 
+    /* .post-img{
+        width: 100%;
+        height: 40%;
+    } */
     </style>
 </head>
 <body class="top-fixed">
@@ -138,7 +149,7 @@
         </svg>  
     </label>  
     <div class="ae-container-fluid rk-topbar">
-         <h1 class="rk-logo"><a href="index">@yield('title', config('verimake.name'))<sup>©</sup></a></h1> 
+         <h1 class="rk-logo"><a href="/index">@yield('title', config('verimake.name'))<sup>©</sup></a></h1> 
 
         @include('layout.navbar')
         

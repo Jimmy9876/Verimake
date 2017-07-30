@@ -22,29 +22,9 @@ class BlogController extends Controller
         $converte = json_encode($converter->convertToHtml($blog->content));
         return view('blog.show',compact('blog'))->with('converte',$converte);
     }
-     //create the article
-    public function create()
+    public function img()
     {
-
-    }
-    //store the article
-    public function store()
-    {
-
-    }
-     //edit the article
-    public function edit()
-    {
-
-    }
-    //update the article
-    public function update()
-    {
-
-    }
-    //delete the article
-    public function delete()
-    {
-
+        $img = Blog::orderBy('created_at', 'desc');
+        return view('layout.app',compact('img'));
     }
 }
