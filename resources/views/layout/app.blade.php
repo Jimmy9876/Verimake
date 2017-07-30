@@ -84,6 +84,43 @@
         transform: scale(1);
         opacity: 1;
     }
+    .ae-grid__item p {
+        font-size: 12px; 
+    }
+    .rk-footer__text span{
+        font-size: 12px;
+    }
+    .fa-lg{
+        font-size: 0.875em;
+    }
+    body
+    {
+        font-family: Georgia, "Times New Roman", 
+             "Microsoft YaHei", "微软雅黑", 
+             STXihei, "华文细黑", 
+             serif;
+    }
+    @media screen and (max-width: 500px) {
+        html {font-size: 17px;}
+        i{
+            color: #787878;
+        }
+        .rk-dark-color{
+            color: #787878;
+        }
+        .rk-footer-menu{
+            color: #787878;
+        }
+        .fa-lg{
+            font-size: 10px;
+        }
+        .rk-footer__text span{
+            font-size: 10px;
+        } 
+        .ae-grid__item p{
+            font-size: 10px;
+        }
+    }   
     </style>
 </head>
 <body class="top-fixed">
