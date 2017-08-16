@@ -2,6 +2,9 @@
 
 @section('content')
 
+{{--  麻瓜li代码  --}}
+{{--  <video src="http://os7fs2jab.bkt.clouddn.com/1.mp4" controls preload="auto" width="100%" height="auto"></video>  --}}
+
 <section class="ae-container-fluid ae-container-fluid--inner loading rk-portfolio ">
         <div class="rk-portfolio__items"><a href="portfolio-item.html" class="rk-item rk-item--flex item-1 rk-size-12 rk-tosize-6 rk-landscape ">
                 <div class="item-meta">

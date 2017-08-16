@@ -3,6 +3,7 @@
         {{--  <li class="previous {{ ($paginator->currentPage() == 1) ? ' disabled' : '' }}">
             <a href="{{ $paginator->url(1) }}"><i class="chevron left icon"></i></a>
         </li>  --}}
+        {{--  <li>pages:</li>  --}}
         @for ($i = 1; $i <= $paginator->lastPage(); $i++)
         <li class="{{ ($paginator->currentPage() == $i) ? ' active' : '' }}">
             <a href="{{ $paginator->url($i) }}">{{ $i }}</a>

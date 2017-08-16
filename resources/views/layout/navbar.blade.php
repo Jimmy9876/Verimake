@@ -1,6 +1,6 @@
         <nav class="rk-navigation">
             <ul class="rk-menu">
-                <li class="active rk-menu__item"><a href="/index" class="rk-menu__link">@lang('verimake.home')</a>
+                <li class="rk-menu__item"><a href="/index" class="rk-menu__link">@lang('verimake.home')</a>
                 </li>
                 {{--  <li class="rk-menu__item"><a href="/portfolio" class="rk-menu__link">@lang('verimake.portfolio')</a>
                     <nav class="rk-menu__sub">

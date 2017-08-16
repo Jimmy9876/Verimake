@@ -16,8 +16,6 @@
     .pagination ul li{
         float: left;
         list-style-type:none;
-        padding-left: 5px;
-        padding-right: 5px;
     }
     .pagination{
         position: relative; 
@@ -29,8 +27,7 @@
         position: relative;
     }
     .pagination .active{
-        background-color: #CDCDCD;
-        border-radius: 50px;
+        color: #CDCDCD;
     }
     .blog-info .blog-info__title{
         font-size: 25px;
@@ -43,9 +40,6 @@
     }
     .rk-portfolio-category{
         font-size: 18px;
-    }
-    .ae-grid__item p{
-        font-size: 16px;
     }
      .ae-grid__item blockquote {
 	    border-left: 5px solid #EEEEEE; 
@@ -85,7 +79,7 @@
         opacity: 1;
     }
     .ae-grid__item p {
-        font-size: 12px; 
+        font-size: 0.8em; 
     }
     .rk-footer__text span{
         font-size: 12px;
@@ -93,11 +87,76 @@
     .fa-lg{
         font-size: 0.875em;
     }
-    body
-    {
-        font-family:
-             "Microsoft YaHei", "微软雅黑";
+    .blog-meta__read-more{
+        font-size: 13px;
+    } 
+/*新版博客index页面样式*/
+    .post {
+        position: relative;
+        width: 80%;
+        max-width: 710px;
+        margin: 4rem auto;
+        padding-bottom: 4rem;
+        border-bottom: #EBF2F6 1px solid;
+        word-wrap: break-word;
     }
+    .postimg {
+        position: relative;
+        width: 100%;
+        max-width: 710px;
+        margin: 4rem auto;
+        word-wrap: break-word;
+    }
+    .post-date {
+    text-align: center;
+    display: inline-block;
+    margin-left: 8px;
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid; 
+    text-transform: uppercase;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+.post-meta a:hover {
+    text-decoration: underline;
+}
+.post-meta a {
+    color: #9EABB3;
+    text-decoration: none;
+}
+.post-meta {
+    text-align: center;
+    display: block;
+    margin: 1.75rem 0 0 0;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    color: #9EABB3;
+}
+body {
+    font-family: "Microsoft YaHei", "微软雅黑";
+    height: 100%;
+    max-height: 100%;
+    letter-spacing: 0.01rem;
+    color: #3A4145;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+    text-rendering: geometricPrecision;
+}
+.post-excerpt p {
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+.post-title {
+    text-align: center;
+    font-size: 30px;
+}
+    /* .post-img{
+        width: 100%;
+        height: 40%;
+    } */
     @media screen and (max-width: 500px) {
         html {font-size: 17px;}
         i{
@@ -124,14 +183,22 @@
         .blog-info__author{
             font-size: 15px;
         }
+        .post-date {
+            font-size: 0.8em;
+        }
+        .post-excerpt p {
+            text-align: center;
+            font-size: 0.8em;
+        }
+        .post-title {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .post-meta{
+            text-align: center;
+            font-size: 0.8em;
+        }
     }   
-    .blog-meta__read-more{
-        font-size: 13px;
-    } 
-    /* .post-img{
-        width: 100%;
-        height: 40%;
-    } */
     </style>
 </head>
 <body class="top-fixed">
@@ -156,7 +223,7 @@
     </div>
 </header> 
 <section class="ae-container-fluid rk-main">
-    <input type="radio" name="layout-ctrl" checked id="layout-base" class="layout-ctrl-input">
+    {{--  <input type="radio" name="layout-ctrl" checked id="layout-base" class="layout-ctrl-input">
     <div class="ae-container-fluid rk-layout-ctrl-cont">
         <label for="layout-base" class="rk-layout-ctrl">
             <svg>
@@ -185,7 +252,7 @@
         <svg viewBox="0 0 9 9" class="layout-mob-4">
             <rect width="100%" height="100%" fill="currentColor"></rect>
         </svg> 
-    </div>  
+    </div>    --}}
 
 @yield('content')
 
