@@ -3,6 +3,11 @@
 @section('content')
 
 <div class="ae-container-fluid ae-container-fluid--inner rk-main">
+<h1 style="text-align:center">敬请期待...</h1>
+</div>
+<div class="ae-container-fluid ae-container-fluid--inner rk-main">
+</div>
+{{--  <div class="ae-container-fluid ae-container-fluid--inner rk-main">
       <div class="ae-grid au-xs-ta-center au-mb-4">
         <div class="ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fhyna44eudj30ak0akt8w.jpg" alt="" class="au-mb-3">
           <h5 class="ae-u-bolder au-mt-2">Jimmy Eric</h5>
@@ -40,11 +45,11 @@
           <p class="au-lh-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
           <p class="au-lh-3">Nemo enim ipsam voluptatem quia voluptas</p>
         </div>
-      </div>
+      </div>  --}}
       {{--  <p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
             <svg>
               <use xlink:href="assets/img/symbols.svg#arrow"></use>
             </svg></span></a></p>  --}}
-    </div>
+    {{--  </div>  --}}
 
 @endsection

@@ -2,7 +2,16 @@
 
 @section('content')
 
- <style>
+<div style="text-align:center">
+  <h3>联系我们</h3>
+  </br>
+  <p>E-mail：hi#verimake.com</p>
+<p>地址：南京浦口高新区星火路15号江苏东大集成智芯大楼402</p>
+</div>
+<div style="text-align:center">
+  <img src="/assets/img/address.jpg"/>
+</div>
+ {{--  <style>
       #map-container {
         width: 100%;
         height: 0;
@@ -127,6 +136,6 @@
       document.querySelector('#map-arrow').addEventListener('click', function() {
         newLocation(Math.round(Math.random()*10) + 13);
       }, false);
-    </script>
+    </script>  --}}
 
 @endsection
