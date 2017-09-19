@@ -8,8 +8,8 @@
 <section class="ae-container-fluid ae-container-fluid--inner loading rk-portfolio ">
         <div class="rk-portfolio__items"><a href="#" class="rk-item rk-item--flex item-1 rk-size-12 rk-tosize-6 rk-landscape ">
                 <div class="item-meta">
-                    <h2>Essential Stationery</h2>
-                    <p>Branding</p>
+                    <h2>Verimake工作室</h2>
+                    {{--  <p>Branding</p>  --}}
                 </div></a>
                 {{--  <a href="#" class="rk-item rk-item--flex item-2 rk-size-6  rk-portrait ">
                 <div class="item-meta">
@@ -22,32 +22,37 @@
                 </div></a>  --}}
             <div class="rk-items-cont rk-size-6 rk-tosize-8"><a href="#" class="rk-item rk-item--flex item-4 rk-size-12 rk-tosize-6 rk-landscape ">
                     <div class="item-meta">
-                        <h2>Tumblr hammock</h2>
-                        <p>Packaging</p>
-                    </div></a><a href="#" class="rk-item rk-item--flex item-5 rk-size-12 rk-tosize-6 rk-landscape ">
-                    <div class="item-meta">
-                        <h2>Biodiesel etsy</h2>
-                        <p>Branding</p>
+                        <h2>Verimake工作室</h2>
+                        {{--  <p>Packaging</p>  --}}
                     </div></a>
-            </div><a href="#" class="rk-item rk-item--flex item-6 rk-size-6 rk-tosize-4 rk-portrait rk-tosquare">
+                    <div class="rk-item rk-item--flex item-5 rk-size-12 rk-tosize-6 rk-landscape ">
+                    <div class="item-meta">
+                        <h2>Verimake工作室</h2>
+                        <video src="/assets/img/verimake.mp4" controls preload="auto" width="100%" height="auto"></video>
+                        {{--  <p>Branding</p>  --}}
+                    </div></div>
+            </div><div class="rk-item rk-item--flex item-6 rk-size-6 rk-tosize-4 rk-portrait rk-tosquare">
                 <div class="item-meta">
-                    <h2>Gentrify artisan</h2>
-                    <p>Graphic Design</p>
-                </div></a>
+                    <h2>Verimake工作室</h2>
+                    <video src="/assets/img/dayin.mp4" controls preload="auto" width="100%" height="80%"></video>
+                    {{--  <p>Graphic Design</p>  --}}
+                </div></div>
             {{--  <div class="rk-items-cont rk-size-4 rk-tosize-8"><a href="#" class="rk-item rk-item--flex item-7 rk-size-12 rk-tosize-6 rk-square ">
                     <div class="item-meta">
-                        <h2>Plaid austin</h2>
+                        <h2>Verimake工作室</h2>
                         <p>Graphic Design</p>
-                    </div></a><a href="#" class="rk-item rk-item--flex item-8 rk-size-12 rk-tosize-6 rk-square ">
+                    </div></a>
+                    <a href="#" class="rk-item rk-item--flex item-8 rk-size-12 rk-tosize-6 rk-square ">
                     <div class="item-meta">
-                        <h2>Trust fund</h2>
+                        <h2>Verimake工作室</h2>
                         <p>Packaging</p>
                     </div></a>
             </div><a href="#" class="rk-item rk-item--flex item-9 rk-size-8 rk-tosize-3 rk-square ">
                 <div class="item-meta">
-                    <h2>Gentrify pork</h2>
+                    <h2>Verimake工作室</h2>
                     <p>Branding</p>
-                </div></a><a href="#" class="rk-item rk-item--flex item-10 rk-size-6 rk-tosize-3 rk-portrait rk-tosquare">
+                </div></a>  --}}
+                {{--  <a href="#" class="rk-item rk-item--flex item-10 rk-size-6 rk-tosize-3 rk-portrait rk-tosquare">
                 <div class="item-meta  rk-tosmallfont">
                     <h2>Waistcoat ugh</h2>
                     <p>UI/UX</p>
