@@ -23,7 +23,7 @@
                         </ul>
                     </nav>
                 </li>  --}}
-                <li class="rk-menu__item"><a href="/contact" class="rk-menu__link">@lang('verimake.contactus')</a>
+                <li class="rk-menu__item"><a href="http://club.verimake.com" class="rk-menu__link">@lang('verimake.club')</a>
                 </li>
             </ul>
             <form class="rk-search">

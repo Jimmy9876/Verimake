@@ -8,5 +8,6 @@ return [
     'pages'         =>          'Pages',
     'contactus'     =>          'Contact Us',
     'about'         =>          'About',
+    'club'          =>          'Club',
 
 ];

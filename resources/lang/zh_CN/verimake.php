@@ -8,5 +8,6 @@ return [
     'pages'         =>          '页面',
     'contactus'     =>          '联系我们',
     'about'         =>          '关于',
+    'club'          =>          '社区',
 
 ];
