@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/css/aurora-theme-base.min.css">
     <link rel="stylesheet" href="/assets/css/urku.css">
     <link rel="stylesheet" href="/highlight/styles/default.css">
+    <script src="/highlight/highlight.pack.js"></script>
     {{--  <link rel="stylesheet" href="/css/bootstrap.min.css">  --}}
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
     {{--  自定分页样式  --}}
@@ -202,6 +203,7 @@ body {
     </style>
 </head>
 <body class="top-fixed">
+    <script>hljs.initHighlightingOnLoad();</script>
  <header class="ae-container-fluid ae-container-fluid--full rk-header ">
     <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
       <label for="mobile-menu">
@@ -216,7 +218,9 @@ body {
         </svg>  
     </label>  
     <div class="ae-container-fluid rk-topbar">
-         <h1 class="rk-logo"><a href="/index">@yield('title', config('verimake.name'))<sup>©</sup></a></h1> 
+         <h1 class="rk-logo"><a href="/index">@yield('title', config('verimake.name'))
+            {{-- <sup>©</sup> --}}
+         </a></h1> 
 
         @include('layout.navbar')
         
@@ -261,8 +265,6 @@ body {
 @include('layout.footer')
 
 {{--  <script src="/js/bootstrap.min.js"></script>  --}}
-<script src="/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 <script src="/assets/js/svg4everybody.min.js"></script>
 <script>svg4everybody();</script>
 </body>

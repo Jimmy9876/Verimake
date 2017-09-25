@@ -2,7 +2,7 @@
     <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
             <ul class="rk-menu rk-footer-menu">
-                <li class="rk-menu__item"><a href="/about" class="rk-menu__link">@lang('verimake.about')</a>
+                <li class="rk-menu__item"><a href="/about" class="rk-menu__link">@lang('verimake.club')</a>
                 </li>
                 <li class="rk-menu__item"><a href="/blog" class="rk-menu__link">@lang('verimake.blog')</a>
                 </li>
@@ -13,7 +13,7 @@
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center">
          <a href="javascript:" class="rk-social-btn social weixin "> 
-         <img class="qrcode" src="https://ws4.sinaimg.cn/large/006tKfTcgy1fi0z52vbulj307s07sdft.jpg" alt="微信二维码">
+         <img class="qrcode" src="https://ws1.sinaimg.cn/large/006tKfTcgy1fjvxfn937ej30760760t6.jpg" alt="微信二维码">
                  {{--  <svg>
                     <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
                 </svg>  --}}<i class="fa fa-weixin fa-lg"></i>
@@ -39,7 +39,7 @@
             </a>
           --}}
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-            <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="mailto:370555337@qq.com" class="rk-dark-color ">370555337@qq.com </a></span></p>
+            <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="mailto:hi#verimake.com" class="rk-dark-color ">hi#verimake.com </a></span></p>
             <p class="rk-footer__text rk-footer__by">Designed by <a href="http://aimpeter.xyz" class="ae-u-bolder">Jimmy</a></p>
         </div>
     </div>
